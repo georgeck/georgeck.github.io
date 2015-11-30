@@ -1,0 +1,282 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+	<title>George Chiramattel - FolkMind – a killer app for the Web 2.0 era</title>
+
+        <meta name="author" content="George Chiramattel">
+        <meta name="copyright" content="George Chiramattel" />
+        <meta name="description" content="Home Page of George Chiramattel">
+        <meta content="George Chiramattel, .NET, C#, Chiramattel, Blog, Redis" name="keywords" />
+        <meta name="DC.title" content="The Home page of George Chiramattel" />
+
+        <meta name="application-name" content="George Chiramattel" />
+        <meta name="msapplication-starturl" content="http://george.chiramattel.com" />
+        <meta name="msapplication-tooltip" content="Home Page of George Chiramattel" />
+        <meta name="msapplication-task" content="name=George Chiramattel's Blog;action-uri=http://george.chiramattel.com/blog;icon-uri=/favicon.ico" />
+        <meta name="msapplication-task" content="name=George Chiramattel on Twitter;action-uri=http://twitter.com/georgeck;icon-uri=/twitter.ico" />
+        <meta name="msapplication-task" content="name=George Chiramattel on Facebook;action-uri=http://www.facebook.com/georgeck;icon-uri=/facebook.ico" />
+        <meta name="msapplication-task" content="name=George Chiramattel on LinkedIn;action-uri=http://in.linkedin.com/in/georgeck;icon-uri=/linkedin.ico" />
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+
+        <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" />
+        <link rel="me" type="text/html" href="http://profiles.google.com/georgeck?rel=me">
+        <link rel="me" type="text/html" href="http://twitter.com/georgeck">
+        <link rel="me" type="text/html" href="http://facebook.com/georgeck">
+        <link rel="me" type="text/html" href="https://plus.google.com/109923857883975235242/about">
+        <link rel="me" type="text/html" href="http://in.linkedin.com/in/georgeck">
+
+        <link rel="canonical" href="http://george.chiramattel.com" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="George Chiramattel" href="/feed.rss" />
+        <link type="application/atom+xml" rel="alternate" title="George Chiramattel" href="/feed.atom" />
+
+        <link href="/Content/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="/Content/prettify.css" rel="stylesheet">
+        <link href="/Content/github.css" rel="stylesheet">
+        <link href="/Content/clean-blog.css" rel="stylesheet" />
+        <link href="/Content/master.css" rel="stylesheet" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <meta property="og:title" content="George Chiramattel - FolkMind – a killer app for the Web 2.0 era" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://george.chiramattel.com/blog/2005/10/folkmind-a-killer-app-for-the-1.html" />
+
+        <!-- TODO: More social graph meta tags -->
+        <script src="/Scripts/jquery-2.1.1.min.js"></script>
+        <script src="/Scripts/bootstrap.min.js"></script>     
+        <script src="/Scripts/prettify.js"></script>
+        <script src="/Scripts/clean-blog.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="/Scripts/trianglify.min.js"></script>
+        <script src="/Scripts/Please-compressed.js"></script>
+        </script>
+            
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    
+	</head>
+	<body onload="prettyPrint()">
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">George Chiramattel</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                <li><a href="/projects">Projects</a></li>
+                                                <li><a class="hidden-xs">|</a><a class="visible-xs-block">-</a></li>
+                                                <li><a href="/about">About</a></li>
+                                                <li><a href="/blog">Archive</a></li>
+                                                <li><a href="/tags">Tags</a></li>
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    <div class="post-heading">
+        <h1>FolkMind – a killer app for the Web 2.0 era</h1>
+        <div class="meta">        
+                Published on Friday, October 14, 2005<br>
+                    </div>
+            <div class="tags">
+
+<a role="button" href="/tags/folkmind" class="btn btn-default btn-sm"> FolkMind</a>
+<a role="button" href="/tags/opensource" class="btn btn-default btn-sm"> OpenSource</a>
+<a role="button" href="/tags/technology" class="btn btn-default btn-sm"> Technology</a>            </div>     
+    </div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-12">
+                                        
+
+
+
+<h2 class="title">Explosion of content on the Internet</h2>
+Currently, a lot of information is being published in the Internet as blogs, which are rich in content, frequently published and scattered across numerous sites. <a href="http://blogs.msdn.com/">MSDN Blogs</a> alone hosts around 2000 blogs. It is very difficult to aggregate this information and get a consolidated view of the same. RSS readers and content aggregators have tried to help us achieve this to some extent, but these tools cannot scale up to handle the voluminous and widespread content in the Internet.
+
+<h2 class="title">The brain as a better model for describing the Internet</h2>
+The Internet in its current form represents the collective intelligence of humanity and it has many characteristics that are similar to the human brain. Just like new connections are made between neurons in our brain as we learn new things, as new concepts emerge on the Internet, the links between the documents that describe the concept gets stronger – quite similar to the organic growth that we see in the brain. Also in the brain the connections between the neuron are more important than the individual neuron (though the neuron forms an integral part of the whole, they are far too many to be considered 
+individually). Similarly in the web the concepts that emerge out of connected documents are more interesting than the individual document itself. One might argue that a document(s) authored by a few authoritative person(s) on a subject might be a better representation than the collection of documents made by the whole crowd. Though it might sound counter intuitive, in his work titled '<a href="http://www.randomhouse.com/features/wisdomofcrowds/">the   wisdom of crowds</a>' James Suriowecki explains that a better representation and a more accurate picture emerges out of the collective decision of the crowd than the work of a selected few. This is also probably one of the factors behind the success of Wikipedia as an accurate encyclopedia. 
+
+<p>Currently the most prominent means of getting information from the Internet is through search. This approach is good enough if we already know what we are looking for – or if we know the right question to ask. But if we visit the Internet with the intension of finding something new, a better approach would be to navigate the Internet directory or taxonomy.</p>
+
+<h2 class="title">Benefit of Folksonomy in favor of Taxonomy</h2>
+Lets take the previous use-case of browsing through MSDN blogs, looking for something 'new’ and ‘interesting’ – this is a good example of a situation where I wouldn’t know what exactly to search for. Instead of individually going through each blog, I can extract the statistically unique terms to form a taxonomy. My intension in doing this exercise is to distill the contents of more than 2000 blogs into a few words and then pick out (from the resultant set) those terms that I find to be interesting. This can be easily done using <a href="http://www.tagcloud.com/">TagCloud</a> and the result is as follows.
+
+<p><img alt="MSDN-TagCloud.gif" src="http://www.chiramattel.com/george/blog/archives/MSDN-TagCloud.gif" width="600" height="286" /><br><br />
+You can see the original cloud <a href="http://www.tagcloud.com/cloud/html/MSDNBlogs/default/250">here</a></p>
+
+<p>Is this auto-generated taxonomy good enough representation of what is published through MSDN blogs? In my opinion-No. This result is purely statistical in nature and I would compare it to the result of Google index with out 'page rank'. It does not take into account the collaborative content selection and filtering that happens usually on the Internet. It is this additional data that makes the data more relevant. A better approximation would be to use the celebrative tagging also referred to as '<a href="http://en.wikipedia.org/wiki/Folksonomy">Folksonomy</a>'. The term folksonomy is defined in wikipedia as "a neologism for a practice of collaborative categorization using freely chosen keywords. More colloquially, this refers to a group of people cooperating spontaneously to organize information into categories, typically using categories or tags on pages, or semantic links with types that evolve without much central control." </p>
+
+<p>This kind of tagging allows for the kind of multiple, overlapping associations that the brain itself uses, rather than using rigid categories. Such flexibility in using tags is both good and bad. On one hand we have tags like 'blog' and 'blogs' appearing as different tags. On the positive side, a photo of a smiling baby might be tagged 'baby', 'happy' and 'cute'. So in effect folksonomy produces results that more accurately reflect the population's conceptual model of the information.</p>
+
+<h2 class="title">The need for better tooling</h2>
+If the brain is a better representative model of how the Internet works then we need different kind of tools to navigate and retrieve information from it. To be able to cope up with the vast amount of information, it should be capable of navigating across concepts instead of across documents. And once we locate our exact match, we should be able to drill down to it. To explain this new UI, lets take the example of <a href="http://earth.google.com/">Google Earth</a>. To be able to locate a particular spot on earth (which is not previously tagged by Google - hence not available to search), we can take two approaches. The brute force approach would be to hunt through all the locatable points on the surface, until we reach our point. A more efficient strategy would be to zoom out (in other words elevate our self to a higher altitude), where we get an over all picture and then drill down to our point of interest. So to handle more complex problems, we need to create better abstractions. Another benefit of higher abstractions is that, at higher level we can easily spot associations and connections between locations (or concepts) that are hard to find at ground level. In the analogy, just as we are able to navigate across continents, countries and states, we should be able to navigate across concepts that emerge out of the Internet. Another vital feature that is missing in the tools that are currently available is the ability to discover and make connections between concepts. It is this lack of tooling that led me to envision FolkMind.
+
+<h2 class="title">The vision of FolkMind</h2>
+To me the new killer app for the Internet should help me in working at any levels of abstraction. The higher the abstraction, the more volume of complexity and data I can handle. Also at any level of abstraction, I should be able to navigate between concepts that are visible at that level and observe new connections that were not apparent to me at a different abstraction. And when I want to dig deeper, it should help me in exploring more on that subject. At the lowest level of abstraction, it would resemble a browser. The mass of the content that is on the Internet will still be on HTML, which is doing a good job of capturing presentation information, and a browser is suitable to view this. In short this application should act as a seamless extension to mind and help me in generating ideas by creating new connection between concepts about which I have little or no previous knowledge by leveraging the collective intelligence of humanity. A 'mind map' would be a good UI (an example of such a UI is shown below) for representing the above-mentioned vision. Wikipedia defines the term 'mind map' as 'a pictorial representation of how a central concept is linked to other concepts and issues'. 
+
+<p>As a start we can create a mind map of the existing folksonomy that already exists on the Internet (with data from sites like del.icio.us) and then add new content and nodes to it. In his article entitled "<a href="http://www.hackdiary.com/archives/000070.html">Using Wikipedia and the Yahoo API to give structure to flat lists</a>", <a href="http://www.hackdiary.com/">Matt Biddulph</a> explains a simple method for automatically converting a set of terms into a connected graph. To me the idea of linking together concepts is quite powerful. Once we reach a critical mass of concepts defined in such a mind map, it can transform itself from a concept management tool to an idea generation tool.</p>
+
+<p><img alt="brain_animation.gif" src="http://www.chiramattel.com/george/blog/archives/brain_animation.gif" width="320" height="205" /></p>
+
+<p>A new person who logs into FolkMind can start with the most popular folksonomy terms and from that point browse related concepts or he can start by searching for a particular concept. Each node in the mind map can be tagged with additional information like a short description, its relevance (based on algorithms similar in principle to the one used by Google page rank), and additional information. This is the highest level of abstraction and at this level the user is more concerned with the connections between concepts than the individual documents that contributed to that concept. With usage the folksonomy gets richer and more concepts and connections between concepts emerge. Once the relevant concepts are identified, the next step is to drill down to the individual documents that pertain to that subject. </p>
+
+<p>If the Internet can be considered as the virtual brain that represents the collective intelligence of humanity, then FolkMind is the pictorial representation on the same expressed as a mind map – hence the name.</p>
+
+<h2 class="title">How does FolkMind fit in as a Web 2.0 application</h2>
+Let me explain how FolkMind application demonstrates the traits that are commonly observed in Web 2.0 applications. FolkMind can be a thick client that connects to the FolkMind server to retrieve its content but it uses the client side processing power for rich interactive UI and for local cache. As the user interacts with the UI, any change is reflected back to the server (this is similar to how Google Earth works). Though a user is given the option of marking certain connections as private, all other new connections and nodes that are created by the user will be stored on the server and will be visible to other users. This action is similar to a person creating a bookmark and tagging it using del.icio.us. Thus a user pursuing selfish interests (the motive behind creating a new connection or node is for his own benefit) build collective value for the rest of the users as a side effect. This phenomenon (also referred to, as the network effect) is critical to the success of a Web 2.0 application. As more content gets added to the system and as more users join in, the value of existing users will grow.
+
+<h2 class="title">Conclusion</h2>
+As we have seen in this article, the vision behind FolkMind is to be a powerful application with an intuitive, interactive UI that can harness the power of Internet by being capable of handing huge volume of data. Eventually, this will become the virtual brain of humanity!
+
+<h2 class="title">References</h2>
+<a href="http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html">What Is Web 2.0</a> by Tim O’Reilly<br>
+<a href="http://www.thebrain.com/">Personal Brain</a><br>
+<a href="http://www.hackdiary.com/archives/000070.html">Using Wikipedia and the Yahoo API to give structure to flat lists</a><br>
+
+<p>Tags: <a href="http://technorati.com/tag/Web+20" rel="tag">Web 2.0</a>&nbsp;&nbsp;<a href="http://www.chiramattel.com/george/blog/2005/10/14/folkmind_a_killer_app_for_the_1.html" rel="tag">FolkMind</a></p>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'georgeck'; // required: replace example with your forum shortname
+    var disqus_identifier = 'folkmind-a-killer-app-for-the-1.html';
+    var disqus_title = 'FolkMind – a killer app for the Web 2.0 era';
+    var disqus_url = 'http://george.chiramattel.com/blog/folkmind-a-killer-app-for-the-1.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>    
+
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+                                        <ul class="list-inline text-center">
+                                                <li>
+                                                <a href="https://twitter.com/georgeck">
+                                                        <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                                        </span>
+                                                </a>
+                                                </li>
+                                                <li>
+                                                <a href="https://github.com/georgeck">
+                                                        <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                                        </span>
+                                                </a>
+                                                </li>
+                                        </ul>
+                                        <p class="copyright text-muted">
+                                                Copyright © 2015 by George Chiramattel. The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+                                                <br />
+                                                <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a> | <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+                                                <br />
+                                                <a href="https://github.com/georgeck/georgeck"><i class="fa fa-github"></i> This Site on GitHub</a> | <strong><a href="http://wyam.io">Generated by Wyam</a></strong>
+                                        </p>
+                                        </div>
+                                </div>
+                        </div>
+                </footer> 
+        
+                <script type="text/javascript">
+                        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                        var disqus_shortname = 'georgeck'; // required: replace example with your forum shortname
+                
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function () {
+                                var s = document.createElement('script'); s.async = true;
+                                s.type = 'text/javascript';
+                                s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                        }());
+                
+                        // Google Analytics
+                        (function (i, s, o, g, r, a, m) {
+                                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                                (i[r].q = i[r].q || []).push(arguments)
+                                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                
+                        ga('create', 'UA-74336-1', 'auto');
+                        ga('send', 'pageview');
+                
+                        // Background                        
+                        var colors = Please.make_color({
+                                colors_returned: 3,
+                                saturation: .6
+                        });
+                        var t = new Trianglify({
+                                x_gradient: colors,
+                                y_gradient: ["#FFFFFF"]
+                        });
+                        var header = document.getElementById("intro-header");
+                        var pattern = t.generate(header.clientWidth, header.clientHeight);
+                        header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
+                </script>
+                
+        </body>
+</html>
+
