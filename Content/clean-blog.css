@@ -1,5 +1,4 @@
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #333333;
 }
@@ -32,7 +31,6 @@ a img:focus {
 }
 blockquote {
   color: #555555;
-  font-style: italic;
 }
 hr.small {
   max-width: 100px;
