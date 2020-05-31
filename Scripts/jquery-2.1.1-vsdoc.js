@@ -9,14 +9,14 @@
 
 /*!
 * jQuery JavaScript Library v2.1.1
-* http://jquery.com/
+* https://jquery.com/
 *
 * Includes Sizzle.js
-* http://sizzlejs.com/
+* https://sizzlejs.com/
 *
 * Copyright 2005, 2012 jQuery Foundation, Inc. and other contributors
 * Released under the MIT license
-* http://jquery.org/license
+* https://jquery.org/license
 *
 */
 
@@ -981,7 +981,7 @@
         }
     };
     jQuery.ajaxSettings = {
-        "url": 'http://localhost:25812/?ver=2.1.1&newLineMethod=xml',
+        "url": 'https://localhost:25812/?ver=2.1.1&newLineMethod=xml',
         "type": 'GET',
         "isLocal": false,
         "global": true,
@@ -1231,7 +1231,7 @@
         // Fix Cloning issues
         if (!jQuery.support.noCloneChecked && (elem.nodeType === 1 || elem.nodeType === 11) && !jQuery.isXMLDoc(elem)) {
 
-            // We eschew Sizzle here for performance reasons: http://jsperf.com/getall-vs-sizzle/2
+            // We eschew Sizzle here for performance reasons: https://jsperf.com/getall-vs-sizzle/2
             destElements = getAll(clone);
             srcElements = getAll(elem);
 
