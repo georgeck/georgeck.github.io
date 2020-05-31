@@ -33,7 +33,6 @@
         <link rel="me" type="text/html" href="https://in.linkedin.com/in/georgeck">
 
         <link rel="canonical" href="https://george.chiramattel.com" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">        
 
         <link type="application/rss+xml" rel="alternate" title="George Chiramattel" href="/feed.rss" />
@@ -52,23 +51,11 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://george.chiramattel.com/blog/2005/10/folkmind-a-killer-app-for-the-1.html" />
 
-        <!-- TODO: More social graph meta tags -->
         <script src="/Scripts/jquery-2.1.1.min.js"></script>
-        <script src="/Scripts/bootstrap.min.js"></script>     
+        <script src="/Scripts/bootstrap.min.js"></script>    
         <script src="/Scripts/prettify.js"></script>
         <script src="/Scripts/clean-blog.js"></script>
-        <script src="https://d3js.org/d3.v3.min.js"></script>
-        <script src="/Scripts/trianglify.min.js"></script>
-        <script src="/Scripts/Please-compressed.js"></script>
-        </script>
-            
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    
+   
 	</head>
 	<body onload="prettyPrint()">
                 
@@ -230,43 +217,6 @@ As we have seen in this article, the vision behind FolkMind is to be a powerful 
                                 </div>
                         </div>
                 </footer> 
-        
-                <script type="text/javascript">
-                
-                        // (function() { // DON'T EDIT BELOW THIS LINE
-                        // var d = document, s = d.createElement('script');
-                        
-                        // s.src = '//georgeck.disqus.com/embed.js';
-                        
-                        // s.setAttribute('data-timestamp', +new Date());
-                        // (d.head || d.body).appendChild(s);
-                        // })();
-                                        
-                        // Google Analytics
-                        (function (i, s, o, g, r, a, m) {
-                                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                                (i[r].q = i[r].q || []).push(arguments)
-                                }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-                        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-                
-                        ga('create', 'UA-74336-1', 'auto');
-                        ga('send', 'pageview');
-                
-                        // Background                        
-                        var colors = Please.make_color({
-                                colors_returned: 3,
-                                saturation: .6
-                        });
-                        var t = new Trianglify({
-                                x_gradient: colors,
-                                y_gradient: ["#FFFFFF"]
-                        });
-                        var header = document.getElementById("intro-header");
-                        var pattern = t.generate(header.clientWidth, header.clientHeight);
-                        header.setAttribute('style', 'background-image: ' + pattern.dataUrl);                        
-                </script>
-                
         </body>
 </html>
 
